@@ -6,4 +6,5 @@ echo -e  "\nNPM : 21083010048"
 printf '%.0s-'  {1..35}
 echo -e  "\nnotes: "
 printf '%.0s-'  {1..35}
-echo -e  "\nHalo dunia!\nIni adalah skrip Bash pertamaku di Linux!"
+echo -e  "\nHalo dunia!"
+echo -e  "\nIni adalah skrip Bash pertamaku di Linux!"
