@@ -7,4 +7,4 @@ distroLinux=("Mint" "Ubuntu" "Kali" "Arch" "Debian")
 let pilih=$RANDOM%5
 
 #eksekusi
-echo "Saya Memilih Distri $pilih, ${distroLinux[$pilih]} !"
+echo "Saya Memilih Distro $pilih, ${distroLinux[$pilih]} !"
