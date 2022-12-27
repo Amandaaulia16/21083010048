@@ -114,6 +114,7 @@ def buah() :
         home()
     else :
         invalid()
+        buah()
 
 def buah1() :
     print("+--------------Perhitungan Harga Jual Buah---------------+")
@@ -152,6 +153,7 @@ def buah1() :
         home()
     else :
         invalid()
+        buah1()
 
 def sayur() :
     print("+---------Perhitungan Persentase Hasil Panen Sayur-------+")
@@ -187,6 +189,7 @@ def sayur() :
         home()
     else :
         invalid()
+        sayur()
 
 def sayur1() :
     print("+--------------Perhitungan Harga Jual Sayur--------------+")
@@ -222,6 +225,7 @@ def sayur1() :
         home()
     else :
         invalid()
+        sayur1()
 
 def hitung(jenis):
     print('Persentase Keuntungan Hasil Panen', jenis)
@@ -280,6 +284,7 @@ def ulang():
         keluar()
     else:
         invalid()
+        ulang()
 
 if __name__ == '__main__':
     home()
